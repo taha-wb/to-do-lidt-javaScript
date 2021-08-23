@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  background: linear-gradient(rgb(52, 102, 174) 0%, rgb(83, 144, 241) 100%);
+  overflow: hidden;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.box {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(255, 255, 255,.4);
+  border-radius: 10px;
+  
+}
+
+#header h1 {
+  text-align: center;
+  
+}
+
+.insert-bar{
+  height: 30px;
+}
+
+#addForm {
+  margin-right: 15%;
+  margin-left: 10%;
+}
+#input {
+  border: 1px solid rgb(255, 255, 255,.4);
+  border-radius: 10px;
+}
+#submitBtn {
+  border-radius: 4px;
+  background-color: rgb(83, 144, 241);
+}
+.tasks-wrapper{
+  margin-top: 50px;
+}
+
+.task {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  border-left: 3px solid rgb(83, 144, 241) ;
+}
+.name {
+  margin-right: auto;
+ 
+}
+.deleteBtn {
+  border-radius: 4px;
+  background-color: rgb(83, 144, 241);
+  margin-right: 5px;
+}
+.checkBtn {
+  border-radius: 4px;
+  background-color: rgb(83, 144, 241);
+  margin-right: 5px;
+}
